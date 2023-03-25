@@ -1,0 +1,18 @@
+1. Type out and run a single hello world code.
+2. In your editor, properly declare the following (feel free to name the variables with any 
+identifier you want):
+a. 17785 
+b. Welcome to this class!
+c. -56.1427
+d. 5262778y
+e. (Three integers on one line, all equal to 5)
+f. True
+g. (A string array with a 10-character limit)
+3. Write a short program that asks the user for their age and responds with the year the 
+user was born in (The input must be received on the next line).
+4. Implement the following:
+T-S.M.A ADJAIDOO 2
+a. Initialize an integer array called “Marks” without a limit and with the following 
+values: 67, 71, 54, 43, 82, 90.
+b. Change the third value to 75.
+c. Pass the fifth value to a variable called “AppliedElectricity”
