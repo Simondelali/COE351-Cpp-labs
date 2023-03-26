@@ -1,0 +1,12 @@
+1. Build a body mass index calculator. The program must ask for a person’s height in 
+centimeters and weight in kilograms, one after the other. It should then display the BMI 
+in kg/m2
+.
+a. If the BMI is less that 18.5, the program also should respond with “You are 
+underweight.”
+b. If BMI falls in the range 18.5 and 24.9, the program should respond with “Your 
+weight is normal.” 
+c. Between 25 and 29.9, it should respond with “You are overweight.”
+d. Between 30 and 39.9, the expected response should be “You are obese.”
+e. For a BMI of 40 and above, the program’s response should be “You are morbidly 
+obese.”

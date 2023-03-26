@@ -11,7 +11,6 @@ g. (A string array with a 10-character limit)
 3. Write a short program that asks the user for their age and responds with the year the 
 user was born in (The input must be received on the next line).
 4. Implement the following:
-T-S.M.A ADJAIDOO 2
 a. Initialize an integer array called “Marks” without a limit and with the following 
 values: 67, 71, 54, 43, 82, 90.
 b. Change the third value to 75.
