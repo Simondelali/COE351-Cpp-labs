@@ -1,0 +1,18 @@
+PRACTICE
+Consider the following base class, CPolygon.
+
+class CPolygon {
+protected:
+ int width, height;
+public:
+ void set_values(int a , int b){
+ width = a, height = b
+ }
+};
+
+1. From this parent class, create two derived classes; CRectangle and CTriangle. Each should have 
+an integer function area, which will be used to calculate the area of a rectangle and a triangle 
+respectively.
+2. Create one object each of the two derived classes.
+3. Set the width and height values of the objects to 10 and 5 respectively.
+4. Print out the values of the respective areas of the two objects.
