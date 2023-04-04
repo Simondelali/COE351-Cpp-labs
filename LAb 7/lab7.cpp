@@ -27,6 +27,6 @@ int main(){
     rectangle.set_values(10,5);
     triangle.set_values(10,5);
     cout << "Area of rectangle = " << rectangle.area() << endl;
-    cout << "Area of tringle = " << triangle.area() << endl;
+    cout << "Area of triangle = " << triangle.area() << endl;
 
 }
