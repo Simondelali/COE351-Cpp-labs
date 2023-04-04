@@ -20,3 +20,13 @@ public:
     int area ()
     { return (width * height / 2); }
 };
+
+int main(){
+    CRectangle rectangle;
+    CTriangle triangle;
+    rectangle.set_values(10,5);
+    triangle.set_values(10,5);
+    cout << "Area of rectangle = " << rectangle.area() << endl;
+    cout << "Area of tringle = " << triangle.area() << endl;
+
+}
