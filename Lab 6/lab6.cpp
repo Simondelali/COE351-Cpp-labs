@@ -2,13 +2,13 @@
 using namespace std;
 
 int getMax(int numbers[], int arraySize){
-    int max = numbers[0];
+    int maxx = numbers[0];
     for (int i=0; i<arraySize; i++){
-        if(numbers[i] > max){
-            max = numbers[i];
+        if(numbers[i] > maxx){
+            maxx = numbers[i];
         }
     }
-    return max;
+    return maxx;
 }
 
 int getMin(int numbers[], int arraySize){
@@ -21,13 +21,13 @@ int getMin(int numbers[], int arraySize){
     return min;
 }
 
-void getMinAndMax(int numbers[], int arraySize, int*min, int*max){
+void getMinAndMax(int numbers[], int arraySize, int *min, int*maxx){
     for(int i=0; i<arraySize; i++){
         if(numbers[i] < *min){
             *min = numbers[i];
             }
-        if(numbers[1] > *max){
-            *max = numbers[i];
+        if(numbers[1] > *maxx){
+            *maxx = numbers[i];
             }
     }
 }
@@ -38,6 +38,8 @@ int main(){
     int min = numbers[0];
     int max = numbers[0];
     getMinAndMax(numbers,5, &min, &max);
+    getMax(numbers, 5);
     cout << "Min is " << min << endl;
     cout << "Max is " << max << endl;
+
 }
